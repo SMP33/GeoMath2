@@ -1,0 +1,5 @@
+<map id="GeoMath::RouteTemplate2D::Position" name="GeoMath::RouteTemplate2D::Position">
+<area shape="rect" id="node1" title=" " alt="" coords="34,109,221,151"/>
+<area shape="rect" id="node2" href="$class_geo_math_1_1v3geo.html" title=" " alt="" coords="5,5,121,32"/>
+<area shape="rect" id="node3" href="$class_geo_math_1_1v2.html" title="Двумерный вектор" alt="" coords="145,5,240,32"/>
+</map>

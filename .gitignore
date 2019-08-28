@@ -1,0 +1,11 @@
+#VS directories
+.vs/
+CodeDB/
+VisualGDB/
+VisualGDBCache/
+juk.sln
+juk.vgdbcmake
+
+#build directories
+bin/
+build/
