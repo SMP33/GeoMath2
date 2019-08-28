@@ -1,0 +1,201 @@
+\hypertarget{class_geo_math_1_1v3}{}\doxysection{Класс Geo\+Math\+::v3}
+\label{class_geo_math_1_1v3}\index{GeoMath::v3@{GeoMath::v3}}
+
+
+{\ttfamily \#include $<$Geo\+Math.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3_ae872e51cd84dca79f55147466067b710}{v3}} (double x\+\_\+=0, double y\+\_\+=0, double z\+\_\+=0)
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3_a204de3d1ae836c43139280a96e3fa531}{v3}} (\mbox{\hyperlink{class_geo_math_1_1v2}{v2}} v)
+\item 
+bool \mbox{\hyperlink{class_geo_math_1_1v3_ab04fcb819132f34cb527d1a086883c38}{is\+Null}} ()
+\item 
+double \mbox{\hyperlink{class_geo_math_1_1v3_ac98767815511d61102e4ebf40a218c74}{length\+\_\+xy}} ()
+\item 
+double \mbox{\hyperlink{class_geo_math_1_1v3_a78c0c33575d6b52c2578c3efbc51b28b}{length\+\_\+xyz}} ()
+\item 
+double \mbox{\hyperlink{class_geo_math_1_1v3_ad69711db7d7b2495173cbb2fd5951f06}{angle\+\_\+xy}} (\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} v)
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} \mbox{\hyperlink{class_geo_math_1_1v3_abe7484fe0dcd2693063ffb7a6d9f42fe}{normalize\+\_\+xy}} (double abs)
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} \mbox{\hyperlink{class_geo_math_1_1v3_a491723747bbb4b5fa714a2ab4b104189}{normalize\+\_\+xyz}} (double abs)
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} \mbox{\hyperlink{class_geo_math_1_1v3_a92d657071d6ca2b69627a6a42779e79b}{rotate\+XY}} (double rad)
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} \mbox{\hyperlink{class_geo_math_1_1v3_ada6a116383e7a143bf1ec428816a03bb}{rotate}} (double rad, \mbox{\hyperlink{namespace_geo_math_ab6550e071f893e534355fb31e619d170}{Axis}} axis, \mbox{\hyperlink{namespace_geo_math_a5f41de8409bc77d86cb656d9d34b540e}{Hand}} hand=\mbox{\hyperlink{namespace_geo_math_a5f41de8409bc77d86cb656d9d34b540ea59d9104b244cc8b2f4a49f99e5cf10fb}{R\+I\+G\+HT}})
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} \mbox{\hyperlink{class_geo_math_1_1v3_ae3b3878ec5505b693650c33bd2b638fe}{rotate}} (double rad, \mbox{\hyperlink{namespace_geo_math_ab6550e071f893e534355fb31e619d170}{Axis}} axis, \mbox{\hyperlink{class_geo_math_1_1v3}{v3}} from\+\_\+point, \mbox{\hyperlink{namespace_geo_math_a5f41de8409bc77d86cb656d9d34b540e}{Hand}} hand=\mbox{\hyperlink{namespace_geo_math_a5f41de8409bc77d86cb656d9d34b540ea59d9104b244cc8b2f4a49f99e5cf10fb}{R\+I\+G\+HT}})
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} \mbox{\hyperlink{class_geo_math_1_1v3_a40fdec5939303a58f40f1a15dfe687ab}{operator+}} (\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} const \&\mbox{\hyperlink{class_geo_math_1_1v2}{v2}})
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} \mbox{\hyperlink{class_geo_math_1_1v3_a757761aef565269a90a41a527bb304aa}{operator-\/}} (\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} const \&\mbox{\hyperlink{class_geo_math_1_1v2}{v2}})
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} \mbox{\hyperlink{class_geo_math_1_1v3_a5c55ea83202123ab9251df058a5e1acc}{operator$\ast$}} (double factor)
+\item 
+\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} \mbox{\hyperlink{class_geo_math_1_1v3_aac9ee78466199595896b8c2802eb63f0}{operator/}} (double factor)
+\item 
+bool \mbox{\hyperlink{class_geo_math_1_1v3_a6581144d213dc3064f6a8756c1421bb2}{operator==}} (\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} const \&v)
+\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_geo_math_1_1v3_a6b30585d5615463c9f51b28d75a133f2}{x}}
+\item 
+double \mbox{\hyperlink{class_geo_math_1_1v3_ad9e953eef27c9723d159d3e1d168816b}{y}}
+\item 
+double \mbox{\hyperlink{class_geo_math_1_1v3_a079f197b4d6b24b6218639d1fa7bf655}{z}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Друзья}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_geo_math_1_1v3_a6a5e65371d48aa392b86f0fb36579406}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} \&at)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_geo_math_1_1v3_ae872e51cd84dca79f55147466067b710}\label{class_geo_math_1_1v3_ae872e51cd84dca79f55147466067b710}} 
+\index{GeoMath::v3@{GeoMath::v3}!v3@{v3}}
+\index{v3@{v3}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{v3()}{v3()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Geo\+Math\+::v3\+::v3 (\begin{DoxyParamCaption}\item[{double}]{x\+\_\+ = {\ttfamily 0},  }\item[{double}]{y\+\_\+ = {\ttfamily 0},  }\item[{double}]{z\+\_\+ = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_a204de3d1ae836c43139280a96e3fa531}\label{class_geo_math_1_1v3_a204de3d1ae836c43139280a96e3fa531}} 
+\index{GeoMath::v3@{GeoMath::v3}!v3@{v3}}
+\index{v3@{v3}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{v3()}{v3()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Geo\+Math\+::v3\+::v3 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_geo_math_1_1v2}{v2}}}]{v }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_geo_math_1_1v3_ad69711db7d7b2495173cbb2fd5951f06}\label{class_geo_math_1_1v3_ad69711db7d7b2495173cbb2fd5951f06}} 
+\index{GeoMath::v3@{GeoMath::v3}!angle\_xy@{angle\_xy}}
+\index{angle\_xy@{angle\_xy}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{angle\_xy()}{angle\_xy()}}
+{\footnotesize\ttfamily double Geo\+Math\+::v3\+::angle\+\_\+xy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_geo_math_1_1v3}{v3}}}]{v = {\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{v3}}(1,~0,~0)} }\end{DoxyParamCaption})}
+
+Граф вызовов\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_geo_math_1_1v3_ad69711db7d7b2495173cbb2fd5951f06_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_geo_math_1_1v3_ab04fcb819132f34cb527d1a086883c38}\label{class_geo_math_1_1v3_ab04fcb819132f34cb527d1a086883c38}} 
+\index{GeoMath::v3@{GeoMath::v3}!isNull@{isNull}}
+\index{isNull@{isNull}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{isNull()}{isNull()}}
+{\footnotesize\ttfamily bool Geo\+Math\+::v3\+::is\+Null (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_ac98767815511d61102e4ebf40a218c74}\label{class_geo_math_1_1v3_ac98767815511d61102e4ebf40a218c74}} 
+\index{GeoMath::v3@{GeoMath::v3}!length\_xy@{length\_xy}}
+\index{length\_xy@{length\_xy}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{length\_xy()}{length\_xy()}}
+{\footnotesize\ttfamily double Geo\+Math\+::v3\+::length\+\_\+xy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_a78c0c33575d6b52c2578c3efbc51b28b}\label{class_geo_math_1_1v3_a78c0c33575d6b52c2578c3efbc51b28b}} 
+\index{GeoMath::v3@{GeoMath::v3}!length\_xyz@{length\_xyz}}
+\index{length\_xyz@{length\_xyz}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{length\_xyz()}{length\_xyz()}}
+{\footnotesize\ttfamily double Geo\+Math\+::v3\+::length\+\_\+xyz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_abe7484fe0dcd2693063ffb7a6d9f42fe}\label{class_geo_math_1_1v3_abe7484fe0dcd2693063ffb7a6d9f42fe}} 
+\index{GeoMath::v3@{GeoMath::v3}!normalize\_xy@{normalize\_xy}}
+\index{normalize\_xy@{normalize\_xy}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{normalize\_xy()}{normalize\_xy()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} Geo\+Math\+::v3\+::normalize\+\_\+xy (\begin{DoxyParamCaption}\item[{double}]{abs = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_a491723747bbb4b5fa714a2ab4b104189}\label{class_geo_math_1_1v3_a491723747bbb4b5fa714a2ab4b104189}} 
+\index{GeoMath::v3@{GeoMath::v3}!normalize\_xyz@{normalize\_xyz}}
+\index{normalize\_xyz@{normalize\_xyz}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{normalize\_xyz()}{normalize\_xyz()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} Geo\+Math\+::v3\+::normalize\+\_\+xyz (\begin{DoxyParamCaption}\item[{double}]{abs = {\ttfamily 1} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_a5c55ea83202123ab9251df058a5e1acc}\label{class_geo_math_1_1v3_a5c55ea83202123ab9251df058a5e1acc}} 
+\index{GeoMath::v3@{GeoMath::v3}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} Geo\+Math\+::v3\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{double}]{factor }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_a40fdec5939303a58f40f1a15dfe687ab}\label{class_geo_math_1_1v3_a40fdec5939303a58f40f1a15dfe687ab}} 
+\index{GeoMath::v3@{GeoMath::v3}!operator+@{operator+}}
+\index{operator+@{operator+}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} Geo\+Math\+::v3\+::operator+ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} const \&}]{v2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_a757761aef565269a90a41a527bb304aa}\label{class_geo_math_1_1v3_a757761aef565269a90a41a527bb304aa}} 
+\index{GeoMath::v3@{GeoMath::v3}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} Geo\+Math\+::v3\+::operator-\/ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} const \&}]{v2 }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_aac9ee78466199595896b8c2802eb63f0}\label{class_geo_math_1_1v3_aac9ee78466199595896b8c2802eb63f0}} 
+\index{GeoMath::v3@{GeoMath::v3}!operator/@{operator/}}
+\index{operator/@{operator/}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} Geo\+Math\+::v3\+::operator/ (\begin{DoxyParamCaption}\item[{double}]{factor }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_a6581144d213dc3064f6a8756c1421bb2}\label{class_geo_math_1_1v3_a6581144d213dc3064f6a8756c1421bb2}} 
+\index{GeoMath::v3@{GeoMath::v3}!operator==@{operator==}}
+\index{operator==@{operator==}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Geo\+Math\+::v3\+::operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_geo_math_1_1v3}{v3}} const \&}]{v }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_ada6a116383e7a143bf1ec428816a03bb}\label{class_geo_math_1_1v3_ada6a116383e7a143bf1ec428816a03bb}} 
+\index{GeoMath::v3@{GeoMath::v3}!rotate@{rotate}}
+\index{rotate@{rotate}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{rotate()}{rotate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} Geo\+Math\+::v3\+::rotate (\begin{DoxyParamCaption}\item[{double}]{rad,  }\item[{\mbox{\hyperlink{namespace_geo_math_ab6550e071f893e534355fb31e619d170}{Geo\+Math\+::\+Axis}}}]{axis,  }\item[{\mbox{\hyperlink{namespace_geo_math_a5f41de8409bc77d86cb656d9d34b540e}{Hand}}}]{hand = {\ttfamily \mbox{\hyperlink{namespace_geo_math_a5f41de8409bc77d86cb656d9d34b540ea59d9104b244cc8b2f4a49f99e5cf10fb}{R\+I\+G\+HT}}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_ae3b3878ec5505b693650c33bd2b638fe}\label{class_geo_math_1_1v3_ae3b3878ec5505b693650c33bd2b638fe}} 
+\index{GeoMath::v3@{GeoMath::v3}!rotate@{rotate}}
+\index{rotate@{rotate}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{rotate()}{rotate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} Geo\+Math\+::v3\+::rotate (\begin{DoxyParamCaption}\item[{double}]{rad,  }\item[{\mbox{\hyperlink{namespace_geo_math_ab6550e071f893e534355fb31e619d170}{Axis}}}]{axis,  }\item[{\mbox{\hyperlink{class_geo_math_1_1v3}{v3}}}]{from\+\_\+point,  }\item[{\mbox{\hyperlink{namespace_geo_math_a5f41de8409bc77d86cb656d9d34b540e}{Hand}}}]{hand = {\ttfamily \mbox{\hyperlink{namespace_geo_math_a5f41de8409bc77d86cb656d9d34b540ea59d9104b244cc8b2f4a49f99e5cf10fb}{R\+I\+G\+HT}}} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_a92d657071d6ca2b69627a6a42779e79b}\label{class_geo_math_1_1v3_a92d657071d6ca2b69627a6a42779e79b}} 
+\index{GeoMath::v3@{GeoMath::v3}!rotateXY@{rotateXY}}
+\index{rotateXY@{rotateXY}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{rotateXY()}{rotateXY()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} Geo\+Math\+::v3\+::rotate\+XY (\begin{DoxyParamCaption}\item[{double}]{rad }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Документация по друзьям класса и функциям, относящимся к классу}
+\mbox{\Hypertarget{class_geo_math_1_1v3_a6a5e65371d48aa392b86f0fb36579406}\label{class_geo_math_1_1v3_a6a5e65371d48aa392b86f0fb36579406}} 
+\index{GeoMath::v3@{GeoMath::v3}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_geo_math_1_1v3}{Geo\+Math\+::v3}} \&}]{at }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\doxysubsection{Данные класса}
+\mbox{\Hypertarget{class_geo_math_1_1v3_a6b30585d5615463c9f51b28d75a133f2}\label{class_geo_math_1_1v3_a6b30585d5615463c9f51b28d75a133f2}} 
+\index{GeoMath::v3@{GeoMath::v3}!x@{x}}
+\index{x@{x}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily double Geo\+Math\+::v3\+::x}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_ad9e953eef27c9723d159d3e1d168816b}\label{class_geo_math_1_1v3_ad9e953eef27c9723d159d3e1d168816b}} 
+\index{GeoMath::v3@{GeoMath::v3}!y@{y}}
+\index{y@{y}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily double Geo\+Math\+::v3\+::y}
+
+\mbox{\Hypertarget{class_geo_math_1_1v3_a079f197b4d6b24b6218639d1fa7bf655}\label{class_geo_math_1_1v3_a079f197b4d6b24b6218639d1fa7bf655}} 
+\index{GeoMath::v3@{GeoMath::v3}!z@{z}}
+\index{z@{z}!GeoMath::v3@{GeoMath::v3}}
+\doxysubsubsection{\texorpdfstring{z}{z}}
+{\footnotesize\ttfamily double Geo\+Math\+::v3\+::z}
+
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_geo_math_8h}{Geo\+Math.\+h}}\item 
+\mbox{\hyperlink{_geo_math_8cpp}{Geo\+Math.\+cpp}}\end{DoxyCompactItemize}
